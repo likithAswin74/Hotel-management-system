@@ -485,7 +485,6 @@ class Roombooking:
             self.var_total.set(tt)
 
 
-
 if __name__ == "__main__":
     root = Tk()
     obj = Roombooking(root)

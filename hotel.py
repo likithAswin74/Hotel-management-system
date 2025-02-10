@@ -3,6 +3,7 @@ from PIL import Image, ImageTk
 from customer import Cust_win
 from room import Roombooking
 
+
 class HotelManagementSystem:
     def __init__(self, root):
         self.root = root
@@ -87,11 +88,9 @@ class HotelManagementSystem:
         lblimg1 = Label(main_frame, image=self.photoimg5, bd=4, relief=RIDGE)
         lblimg1.place(x=0, y=420, width=230, height=190)
 
-
     def cust_details(self):
         self.new_window = Toplevel(self.root)
         self.app = Cust_win(self.new_window)
-
 
     def roombooking_details(self):
         self.new_window = Toplevel(self.root)
